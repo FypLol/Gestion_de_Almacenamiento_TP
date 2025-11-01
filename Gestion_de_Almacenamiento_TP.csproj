@@ -84,6 +84,9 @@
     <EmbeddedResource Include="frmGestionInventario.resx">
       <DependentUpon>frmGestionInventario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionPedidos.resx">
+      <DependentUpon>frmGestionPedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHistorialMovimientos.resx">
       <DependentUpon>frmHistorialMovimientos.cs</DependentUpon>
     </EmbeddedResource>
