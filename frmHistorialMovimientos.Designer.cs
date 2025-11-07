@@ -30,8 +30,8 @@
         {
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblUltimos = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvHistorialMovimiento = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistorialMovimiento)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -56,27 +56,28 @@
             this.lblUltimos.TabIndex = 2;
             this.lblUltimos.Text = "Últimos Retiros:";
             // 
-            // dataGridView1
+            // dgvHistorialMovimiento
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 92);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(746, 348);
-            this.dataGridView1.TabIndex = 3;
+            this.dgvHistorialMovimiento.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
+            this.dgvHistorialMovimiento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvHistorialMovimiento.GridColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dgvHistorialMovimiento.Location = new System.Drawing.Point(26, 92);
+            this.dgvHistorialMovimiento.Name = "dgvHistorialMovimiento";
+            this.dgvHistorialMovimiento.Size = new System.Drawing.Size(746, 348);
+            this.dgvHistorialMovimiento.TabIndex = 3;
             // 
             // frmHistorialMovimientos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvHistorialMovimiento);
             this.Controls.Add(this.lblUltimos);
             this.Controls.Add(this.lblTitulo);
             this.Name = "frmHistorialMovimientos";
             this.Text = "frmHistorialMovimientos";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.frmHistorialMovimientos_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistorialMovimiento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,6 +87,6 @@
 
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblUltimos;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvHistorialMovimiento;
     }
 }

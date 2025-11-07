@@ -16,5 +16,10 @@ namespace Gestion_de_Almacenamiento_TP
         {
             InitializeComponent();
         }
+
+        private void frmHistorialMovimientos_Load(object sender, EventArgs e)
+        {
+            dgvHistorialMovimiento.DataSource = clsDatosGlobales.pilaGeneral.ObtenerTope();
+        }
     }
 }
