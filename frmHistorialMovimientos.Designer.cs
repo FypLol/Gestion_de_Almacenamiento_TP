@@ -31,6 +31,7 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblUltimos = new System.Windows.Forms.Label();
             this.dgvHistorialMovimiento = new System.Windows.Forms.DataGridView();
+            this.btnDeshacer = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHistorialMovimiento)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,11 +67,25 @@
             this.dgvHistorialMovimiento.Size = new System.Drawing.Size(746, 348);
             this.dgvHistorialMovimiento.TabIndex = 3;
             // 
+            // btnDeshacer
+            // 
+            this.btnDeshacer.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btnDeshacer.FlatAppearance.BorderSize = 0;
+            this.btnDeshacer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDeshacer.Location = new System.Drawing.Point(538, 62);
+            this.btnDeshacer.Name = "btnDeshacer";
+            this.btnDeshacer.Size = new System.Drawing.Size(234, 23);
+            this.btnDeshacer.TabIndex = 4;
+            this.btnDeshacer.Text = "Deshacer último movimiento";
+            this.btnDeshacer.UseVisualStyleBackColor = false;
+            this.btnDeshacer.Click += new System.EventHandler(this.btnDeshacer_Click);
+            // 
             // frmHistorialMovimientos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDeshacer);
             this.Controls.Add(this.dgvHistorialMovimiento);
             this.Controls.Add(this.lblUltimos);
             this.Controls.Add(this.lblTitulo);
@@ -88,5 +103,6 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblUltimos;
         private System.Windows.Forms.DataGridView dgvHistorialMovimiento;
+        private System.Windows.Forms.Button btnDeshacer;
     }
 }

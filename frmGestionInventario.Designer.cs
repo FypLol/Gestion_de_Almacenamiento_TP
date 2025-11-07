@@ -50,10 +50,10 @@
             this.tbox_Codigo = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btn_buscarCodigo = new System.Windows.Forms.Button();
-            this.btn_mostrarTodo = new System.Windows.Forms.Button();
-            this.tbox_codigoBuscar = new System.Windows.Forms.TextBox();
             this.lbl_dniBuscar = new System.Windows.Forms.Label();
+            this.tbox_codigoBuscar = new System.Windows.Forms.TextBox();
+            this.btn_mostrarTodo = new System.Windows.Forms.Button();
+            this.btn_buscarCodigo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_GestionInventario)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -285,20 +285,21 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
-            // btn_buscarCodigo
+            // lbl_dniBuscar
             // 
-            this.btn_buscarCodigo.BackColor = System.Drawing.Color.Olive;
-            this.btn_buscarCodigo.FlatAppearance.BorderSize = 0;
-            this.btn_buscarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buscarCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_buscarCodigo.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_buscarCodigo.Location = new System.Drawing.Point(70, 94);
-            this.btn_buscarCodigo.Name = "btn_buscarCodigo";
-            this.btn_buscarCodigo.Size = new System.Drawing.Size(160, 37);
-            this.btn_buscarCodigo.TabIndex = 40;
-            this.btn_buscarCodigo.Text = "Buscar";
-            this.btn_buscarCodigo.UseVisualStyleBackColor = false;
-            this.btn_buscarCodigo.Click += new System.EventHandler(this.btn_buscarCodigo_Click);
+            this.lbl_dniBuscar.AutoSize = true;
+            this.lbl_dniBuscar.Location = new System.Drawing.Point(115, 33);
+            this.lbl_dniBuscar.Name = "lbl_dniBuscar";
+            this.lbl_dniBuscar.Size = new System.Drawing.Size(68, 13);
+            this.lbl_dniBuscar.TabIndex = 40;
+            this.lbl_dniBuscar.Text = "Dni a Buscar";
+            // 
+            // tbox_codigoBuscar
+            // 
+            this.tbox_codigoBuscar.Location = new System.Drawing.Point(21, 60);
+            this.tbox_codigoBuscar.Name = "tbox_codigoBuscar";
+            this.tbox_codigoBuscar.Size = new System.Drawing.Size(266, 20);
+            this.tbox_codigoBuscar.TabIndex = 40;
             // 
             // btn_mostrarTodo
             // 
@@ -315,21 +316,20 @@
             this.btn_mostrarTodo.UseVisualStyleBackColor = false;
             this.btn_mostrarTodo.Click += new System.EventHandler(this.btn_mostrarTodo_Click);
             // 
-            // tbox_codigoBuscar
+            // btn_buscarCodigo
             // 
-            this.tbox_codigoBuscar.Location = new System.Drawing.Point(21, 60);
-            this.tbox_codigoBuscar.Name = "tbox_codigoBuscar";
-            this.tbox_codigoBuscar.Size = new System.Drawing.Size(266, 20);
-            this.tbox_codigoBuscar.TabIndex = 40;
-            // 
-            // lbl_dniBuscar
-            // 
-            this.lbl_dniBuscar.AutoSize = true;
-            this.lbl_dniBuscar.Location = new System.Drawing.Point(115, 33);
-            this.lbl_dniBuscar.Name = "lbl_dniBuscar";
-            this.lbl_dniBuscar.Size = new System.Drawing.Size(85, 13);
-            this.lbl_dniBuscar.TabIndex = 40;
-            this.lbl_dniBuscar.Text = "Código a Buscar";
+            this.btn_buscarCodigo.BackColor = System.Drawing.Color.Olive;
+            this.btn_buscarCodigo.FlatAppearance.BorderSize = 0;
+            this.btn_buscarCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_buscarCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buscarCodigo.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_buscarCodigo.Location = new System.Drawing.Point(70, 94);
+            this.btn_buscarCodigo.Name = "btn_buscarCodigo";
+            this.btn_buscarCodigo.Size = new System.Drawing.Size(160, 37);
+            this.btn_buscarCodigo.TabIndex = 40;
+            this.btn_buscarCodigo.Text = "Buscar";
+            this.btn_buscarCodigo.UseVisualStyleBackColor = false;
+            this.btn_buscarCodigo.Click += new System.EventHandler(this.btn_buscarCodigo_Click);
             // 
             // frmGestionInventario
             // 

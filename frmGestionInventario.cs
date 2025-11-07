@@ -92,6 +92,7 @@ namespace Gestion_de_Almacenamiento_TP
             }
 
             listaPaquetes.Agregar(nuevo);
+            clsDatosGlobales.pilaGeneral.Apilar("Se agrego el paquete con código: " + nuevo.Codigo + " y DNI: "+nuevo.Dni);
             actualizarTabla();
             limpiarCampos();
             MessageBox.Show("Paquete agregado exitosamente.");
