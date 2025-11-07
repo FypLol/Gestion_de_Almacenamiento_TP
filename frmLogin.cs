@@ -16,5 +16,10 @@ namespace Gestion_de_Almacenamiento_TP
         {
             InitializeComponent();
         }
+
+        private void btn_iniciarsesion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
