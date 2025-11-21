@@ -88,27 +88,11 @@
             // 
             // lb_titulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Gadugi", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(608, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 52);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "INICIAR SESIÓN";
+          
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(804, 138);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 29);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "Usuario";
+            
             // 
             // label3
             // 
@@ -163,32 +147,15 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel2.Location = new System.Drawing.Point(689, 218);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(315, 4);
-            this.panel2.TabIndex = 39;
+           
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Location = new System.Drawing.Point(689, 350);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(315, 4);
-            this.panel1.TabIndex = 40;
+           
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(51, 43);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(467, 468);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 41;
-            this.pictureBox3.TabStop = false;
+            
             // 
             // frmLogin
             // 
@@ -196,9 +163,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel2);
+            
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.btn_registrarUser);
