@@ -32,23 +32,24 @@
             this.btn_iniciarsesion = new System.Windows.Forms.Button();
             this.txt_contraseña = new System.Windows.Forms.TextBox();
             this.txt_usuario = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lb_titulo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_registrarUser = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pnl_logo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pnl_logo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_iniciarsesion
             // 
-            this.btn_iniciarsesion.BackColor = System.Drawing.Color.Black;
+            this.btn_iniciarsesion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_iniciarsesion.BackColor = System.Drawing.Color.White;
             this.btn_iniciarsesion.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_iniciarsesion.FlatAppearance.BorderSize = 0;
             this.btn_iniciarsesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -65,7 +66,9 @@
             // 
             // txt_contraseña
             // 
-            this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_contraseña.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_contraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contraseña.Location = new System.Drawing.Point(689, 318);
             this.txt_contraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -83,7 +86,7 @@
             this.txt_usuario.Size = new System.Drawing.Size(311, 34);
             this.txt_usuario.TabIndex = 19;
             // 
-            // label1
+            // lb_titulo
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Gadugi", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,7 +124,7 @@
             // 
             // btn_registrarUser
             // 
-            this.btn_registrarUser.BackColor = System.Drawing.Color.Gray;
+            this.btn_registrarUser.BackColor = System.Drawing.Color.Orange;
             this.btn_registrarUser.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_registrarUser.FlatAppearance.BorderSize = 0;
             this.btn_registrarUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -136,7 +139,7 @@
             this.btn_registrarUser.UseVisualStyleBackColor = false;
             this.btn_registrarUser.Click += new System.EventHandler(this.btn_registrarUser_Click);
             // 
-            // pictureBox4
+            // pnl_logo
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(615, 166);
@@ -201,7 +204,7 @@
             this.Controls.Add(this.btn_registrarUser);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lb_titulo);
             this.Controls.Add(this.txt_usuario);
             this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.btn_iniciarsesion);
@@ -210,9 +213,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmLogin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.pnl_logo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,15 +226,14 @@
         private System.Windows.Forms.Button btn_iniciarsesion;
         private System.Windows.Forms.TextBox txt_contraseña;
         private System.Windows.Forms.TextBox txt_usuario;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lb_titulo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_registrarUser;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel pnl_logo;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
