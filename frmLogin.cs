@@ -94,5 +94,10 @@ namespace Gestion_de_Almacenamiento_TP
             frm_registroUsuario registroUsuario = new frm_registroUsuario();
             registroUsuario.ShowDialog();
         }
+
+        private void txt_contraseña_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -132,6 +132,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -149,6 +150,27 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\186244406-icon-distribution-suitable-for-education-symbol-two-tone-style-simple-design-editable-design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\172971664-paquete-de-devolución-de-garabato-dibujado-a-mano-o-vector-de-ilustración-de-pedido.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\211289249-opening-a-box-receiving-a-delivery-or-packing-stuff-to-move-pixel-perfect-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_65dp_E3E3E3_FILL0_wght700_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\186244406-icon-distribution-suitable-for-education-symbol-two-tone-style-simple-design-editable-design1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\181001636-contorno-relleno-icono-de-vehículo-de-camión-de-carga-de-entrega-aislado-sobre-fondo-blanco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logotipo-de-icono-camión-entrega-simple-vector-rápido-envío-imagen-colorido-logo-pictograma-aislado-en-fondo-blanco-203082949.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

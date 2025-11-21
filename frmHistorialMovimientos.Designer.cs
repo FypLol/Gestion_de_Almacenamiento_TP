@@ -40,20 +40,22 @@
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Cooper Black", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.Color.LightSalmon;
-            this.lblTitulo.Location = new System.Drawing.Point(193, 22);
+            this.lblTitulo.Location = new System.Drawing.Point(257, 27);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(339, 25);
+            this.lblTitulo.Size = new System.Drawing.Size(424, 32);
             this.lblTitulo.TabIndex = 1;
-            this.lblTitulo.Text = "📦   Historial de MovimientoS";
+            this.lblTitulo.Text = "📦   Historial de Movimientos";
             // 
             // lblUltimos
             // 
             this.lblUltimos.AutoSize = true;
             this.lblUltimos.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUltimos.ForeColor = System.Drawing.Color.Salmon;
-            this.lblUltimos.Location = new System.Drawing.Point(44, 67);
+            this.lblUltimos.Location = new System.Drawing.Point(59, 82);
+            this.lblUltimos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUltimos.Name = "lblUltimos";
-            this.lblUltimos.Size = new System.Drawing.Size(116, 18);
+            this.lblUltimos.Size = new System.Drawing.Size(139, 22);
             this.lblUltimos.TabIndex = 2;
             this.lblUltimos.Text = "Últimos Retiros:";
             // 
@@ -62,9 +64,11 @@
             this.dgvHistorialMovimiento.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
             this.dgvHistorialMovimiento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHistorialMovimiento.GridColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.dgvHistorialMovimiento.Location = new System.Drawing.Point(26, 92);
+            this.dgvHistorialMovimiento.Location = new System.Drawing.Point(35, 113);
+            this.dgvHistorialMovimiento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvHistorialMovimiento.Name = "dgvHistorialMovimiento";
-            this.dgvHistorialMovimiento.Size = new System.Drawing.Size(746, 348);
+            this.dgvHistorialMovimiento.RowHeadersWidth = 51;
+            this.dgvHistorialMovimiento.Size = new System.Drawing.Size(995, 428);
             this.dgvHistorialMovimiento.TabIndex = 3;
             // 
             // btnDeshacer
@@ -72,9 +76,10 @@
             this.btnDeshacer.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.btnDeshacer.FlatAppearance.BorderSize = 0;
             this.btnDeshacer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeshacer.Location = new System.Drawing.Point(538, 62);
+            this.btnDeshacer.Location = new System.Drawing.Point(717, 76);
+            this.btnDeshacer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeshacer.Name = "btnDeshacer";
-            this.btnDeshacer.Size = new System.Drawing.Size(234, 23);
+            this.btnDeshacer.Size = new System.Drawing.Size(312, 28);
             this.btnDeshacer.TabIndex = 4;
             this.btnDeshacer.Text = "Deshacer último movimiento";
             this.btnDeshacer.UseVisualStyleBackColor = false;
@@ -82,13 +87,14 @@
             // 
             // frmHistorialMovimientos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnDeshacer);
             this.Controls.Add(this.dgvHistorialMovimiento);
             this.Controls.Add(this.lblUltimos);
             this.Controls.Add(this.lblTitulo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmHistorialMovimientos";
             this.Text = "frmHistorialMovimientos";
             this.Load += new System.EventHandler(this.frmHistorialMovimientos_Load);
