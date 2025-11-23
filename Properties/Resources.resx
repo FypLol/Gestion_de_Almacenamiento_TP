@@ -127,6 +127,9 @@
   <data name="211289249-opening-a-box-receiving-a-delivery-or-packing-stuff-to-move-pixel-perfect-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\211289249-opening-a-box-receiving-a-delivery-or-packing-stuff-to-move-pixel-perfect-icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logotipo-de-icono-camión-entrega-simple-vector-rápido-envío-imagen-colorido-logo-pictograma-aislado-en-fondo-blanco-203082949" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logotipo-de-icono-camión-entrega-simple-vector-rápido-envío-imagen-colorido-logo-pictograma-aislado-en-fondo-blanco-203082949.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="172971664-paquete-de-devolución-de-garabato-dibujado-a-mano-o-vector-de-ilustración-de-pedido" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\172971664-paquete-de-devolución-de-garabato-dibujado-a-mano-o-vector-de-ilustración-de-pedido.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,7 +139,7 @@
   <data name="186244406-icon-distribution-suitable-for-education-symbol-two-tone-style-simple-design-editable-design1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\186244406-icon-distribution-suitable-for-education-symbol-two-tone-style-simple-design-editable-design1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logotipo-de-icono-camión-entrega-simple-vector-rápido-envío-imagen-colorido-logo-pictograma-aislado-en-fondo-blanco-203082949" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logotipo-de-icono-camión-entrega-simple-vector-rápido-envío-imagen-colorido-logo-pictograma-aislado-en-fondo-blanco-203082949.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sistema-de-inventario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sistema-de-inventario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
